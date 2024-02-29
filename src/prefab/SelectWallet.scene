@@ -1,0 +1,101 @@
+{
+    "id": "f2da5930-47d8-4ad2-b399-d7a4f802ac04",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": ""
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "1afe3c3c-d3c8-4094-a001-9bd916bb3a91",
+            "label": "container_1",
+            "components": [],
+            "x": -62,
+            "y": -20,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "2500008c-abb1-4f86-9630-6a1141bd96a0",
+                    "label": "backgroundContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 62,
+                    "y": 20,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f066bf3c-2bb7-482d-b9bc-7c4a3313b519",
+                            "label": "wallete_bg",
+                            "components": [],
+                            "texture": {
+                                "key": "wallete-bg"
+                            }
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d20d8277-a4af-49e0-8436-6d253fbab08e",
+                            "label": "metamask_btn",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "metamask-btn"
+                            },
+                            "x": 13,
+                            "y": -236,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fc89e11f-e8b7-4ca7-b26a-36f0cd115c6b",
+                            "label": "trust_wallet_btn",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "trust-wallet-btn"
+                            },
+                            "x": 13,
+                            "y": -46,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ae767f47-c2cd-42e9-bb7e-3551d5cfc635",
+                            "label": "coin_base_btn",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "coin-base-btn"
+                            },
+                            "x": 13,
+                            "y": 144,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9
+                        },
+                        {
+                            "type": "Text",
+                            "id": "a3b16e8d-3baf-4c5b-b786-7f3d63224acb",
+                            "label": "text_1",
+                            "components": [],
+                            "x": -209,
+                            "y": 262,
+                            "text": "PLEASE SELECT TO CONNECT WITH THIS APP",
+                            "fontSize": "20px",
+                            "fontStyle": "bold"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

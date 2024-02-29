@@ -1,0 +1,488 @@
+{
+    "id": "1444b7b1-f8c9-414f-b196-26ccd31dafc7",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "TroopSelection",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "a3073cfd-14c8-4ef5-8a29-efb46d99419d",
+            "label": "backgroundContainer",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "53ac4322-bf2d-4fa2-86ae-7fe3fe597bda",
+                    "label": "troopsframe",
+                    "components": [],
+                    "texture": {
+                        "key": "troopsframe"
+                    },
+                    "x": 960,
+                    "y": 540
+                },
+                {
+                    "type": "Image",
+                    "id": "eea46620-0b96-45d1-b832-c60045ca89ab",
+                    "label": "back_to_home_btn",
+                    "components": [],
+                    "texture": {
+                        "key": "back-to-home-btn"
+                    },
+                    "x": 172,
+                    "y": 34
+                },
+                {
+                    "type": "Image",
+                    "id": "557634c2-a224-41cc-8389-87194aefe1e3",
+                    "label": "select_team_btn",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "select-team-btn"
+                    },
+                    "x": 1764,
+                    "y": 42
+                },
+                {
+                    "type": "Image",
+                    "id": "102d9e77-49a3-4931-86fe-a705286d8ec2",
+                    "label": "plus_img_1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "plus-img"
+                    },
+                    "x": 1280,
+                    "y": 272,
+                    "scaleX": 1.1,
+                    "scaleY": 1.1
+                },
+                {
+                    "type": "Image",
+                    "id": "bb27b2e7-836d-498c-9b00-973dcac066de",
+                    "label": "plus_img_2",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "plus-img"
+                    },
+                    "x": 1627,
+                    "y": 272,
+                    "scaleX": 1.1,
+                    "scaleY": 1.1
+                },
+                {
+                    "type": "Image",
+                    "id": "34a0ddbe-c63f-44e8-9358-25789be0a9b9",
+                    "label": "plus_img",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "plus-img"
+                    },
+                    "x": 942,
+                    "y": 272,
+                    "scaleX": 1.1,
+                    "scaleY": 1.1
+                },
+                {
+                    "type": "Image",
+                    "id": "bcbe7f07-9177-4d50-b756-1b744cb00a6d",
+                    "label": "stats",
+                    "components": [],
+                    "texture": {
+                        "key": "stats"
+                    },
+                    "x": 341,
+                    "y": 852
+                },
+                {
+                    "type": "Image",
+                    "id": "ee16db63-5112-41ea-bfff-eac08ff93982",
+                    "label": "mytroops_btn",
+                    "components": [],
+                    "texture": {
+                        "key": "mytroops-btn"
+                    },
+                    "x": 1290,
+                    "y": 520
+                },
+                {
+                    "type": "Image",
+                    "id": "e85f0c49-a0a0-448b-963c-df994eda50b8",
+                    "label": "select_btn",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "select-btn"
+                    },
+                    "x": 328,
+                    "y": 970,
+                    "scaleX": 0.6,
+                    "scaleY": 0.6
+                },
+                {
+                    "type": "Container",
+                    "id": "b85cf6d3-a1cf-4431-980b-8aa463d83fb5",
+                    "label": "troopsContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "87eddeea-2784-4366-af2c-17b6c1d708eb",
+                            "label": "troops_bg",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "troops-bg"
+                            },
+                            "x": 1270,
+                            "y": 783,
+                            "scaleX": 1.4191834706105837,
+                            "scaleY": 1.2946627122598597
+                        },
+                        {
+                            "type": "Container",
+                            "id": "4ec4b624-8647-457a-99ff-b2ced86b7962",
+                            "label": "playerProfiles",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 748,
+                            "y": 593,
+                            "list": [
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "4bd83d04-8916-4213-99cf-ab2bcd9f2792",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_0",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 181,
+                                    "y": 139,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "e244d366-8663-49c5-b468-6a20f0451a7c",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_1",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 391,
+                                    "y": 139,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "d1bbe37d-7b3f-42f8-80d9-d5eb2b72d537",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_2",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 601,
+                                    "y": 139,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "7fcd23b6-0e51-4523-a1ef-2507a1869c54",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_3",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 811,
+                                    "y": 139,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "b3d59173-12bd-45ab-bcc6-f3e79f3e5f48",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_4",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 181,
+                                    "y": 349,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "e8148e44-483f-4430-bacb-fc393f56cfa4",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_5",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 181,
+                                    "y": 559,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "2dc5a2fd-58ba-477a-b1b6-3d5c00c1f040",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_6",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 181,
+                                    "y": 769,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "10dc3e67-f81e-4421-b902-79abca07a20c",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_7",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 391,
+                                    "y": 349,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "2932fb72-9cd1-4a6c-9767-181025a24fcd",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_8",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 601,
+                                    "y": 349,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "35de41cb-633b-4bc1-a0f7-c302bcb2be5f",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_9",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 811,
+                                    "y": 349,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "679a062b-a107-4617-8921-3cecc2384950",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_10",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 391,
+                                    "y": 559,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "c93a9dc4-cb3d-4d55-9b85-3494fd517bf8",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_11",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 601,
+                                    "y": 559,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "e3de9995-2faf-449c-82b5-bb8b8e73293d",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_12",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 811,
+                                    "y": 559,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "165be9fd-f62b-454d-adbb-c1be529f8c32",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_13",
+                                    "components": [],
+                                    "x": 391,
+                                    "y": 769,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "b14134c9-aa70-4d19-9843-064f35bbcbc9",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_14",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 601,
+                                    "y": 769,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "prefabId": "129c917e-ac91-45e9-9d77-80b99cb5a04d",
+                                    "id": "7145cee3-8448-4b14-a48b-a19768d515b5",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "players_15",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 811,
+                                    "y": 769,
+                                    "nestedPrefabs": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "6acdde88-504e-404a-8d28-0069fe80607a",
+                    "label": "scroll_frame",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "scroll-frame"
+                    },
+                    "x": 1753,
+                    "y": 762
+                },
+                {
+                    "type": "Image",
+                    "id": "fa6104ea-5f2c-48ad-9ef7-033397a1c163",
+                    "label": "slide_indicator_1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "slide-indicator"
+                    },
+                    "x": 1753,
+                    "y": 650
+                },
+                {
+                    "type": "Image",
+                    "id": "c1ab7cf2-715c-4485-b5a0-cd0b471a8577",
+                    "label": "img_1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {},
+                    "x": 939,
+                    "y": 265,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "c236dc98-4bd3-48c5-9891-5fbad13ff1ea",
+                    "label": "img_2",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {},
+                    "x": 1279,
+                    "y": 265,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "1282a117-1580-4db7-980e-04e8be3fb18e",
+                    "label": "img_3",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {},
+                    "x": 1625,
+                    "y": 265,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "61280022-e381-4dc9-aa61-722669328be7",
+            "label": "SelectTroops",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "a02c0baa-882c-41d1-ba84-b6c377129863",
+                    "label": "privew_frame",
+                    "components": [],
+                    "texture": {
+                        "key": "privew-frame"
+                    },
+                    "x": 329,
+                    "y": 449
+                },
+                {
+                    "type": "Image",
+                    "id": "eef11dea-7d41-4d0c-a9fa-dd0b76ad9ba7",
+                    "label": "Troops",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {},
+                    "x": 325,
+                    "y": 424,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

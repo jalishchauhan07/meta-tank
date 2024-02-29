@@ -1,0 +1,123 @@
+{
+    "id": "e6e758a3-0edc-4c20-84fd-bbb14639634a",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "SelectBattleground",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "52aa8c4e-044d-4103-a8fb-620b261869d0",
+            "label": "backgroundContainer",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "fbc28507-0d9c-4e48-9e85-f7d65ac17ae0",
+                    "label": "regionbackground",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "regionbackground"
+                    },
+                    "x": 960,
+                    "y": 540
+                },
+                {
+                    "type": "Image",
+                    "id": "cdccc8d1-75e1-49ca-9b8c-f127f6e6a845",
+                    "label": "slideprevbtn",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "slideprevbtn"
+                    },
+                    "x": 749,
+                    "y": 863
+                },
+                {
+                    "type": "Image",
+                    "id": "887ec9de-9b5a-4ab0-97af-066de8e58e54",
+                    "label": "slidenextbtn",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "slidenextbtn"
+                    },
+                    "x": 1195,
+                    "y": 863
+                },
+                {
+                    "type": "Image",
+                    "id": "510a25a4-659d-478b-9881-a504a3cacd35",
+                    "label": "select_btn",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "select-btn"
+                    },
+                    "x": 973,
+                    "y": 863
+                },
+                {
+                    "type": "Container",
+                    "id": "9cc42cf5-2070-4c8a-88cd-ed7d44557a99",
+                    "label": "SliderContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "35ea6dfa-2717-445c-a274-c9c590ff62a4",
+                            "label": "Battle_Bg",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "Desert"
+                            },
+                            "x": 961,
+                            "y": 512,
+                            "scaleX": 0.7,
+                            "scaleY": 0.6
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e40e41d0-8725-4665-b757-8a04f464ef43",
+                            "label": "battleframeimg",
+                            "components": [],
+                            "texture": {
+                                "key": "battleframeimg"
+                            },
+                            "x": 967,
+                            "y": 509
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "6f39cb91-f916-46de-ad03-ed635e0c5649",
+                    "label": "next_btn",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "next-btn"
+                    },
+                    "x": 1800,
+                    "y": 28
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

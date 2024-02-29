@@ -1,0 +1,122 @@
+{
+    "id": "915ca4b7-1c6f-4b1d-9118-6be7f08e1039",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "GameMainPanel",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "b77438c3-062d-4b96-a151-23c51749adab",
+            "label": "welcomescreen",
+            "components": [],
+            "texture": {
+                "key": "welcomescreen"
+            },
+            "x": 982,
+            "y": 531
+        },
+        {
+            "type": "Image",
+            "id": "d87baafd-32e5-46a3-b4dc-7b8f3a7c7418",
+            "label": "playnow",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "playnow"
+            },
+            "x": 985,
+            "y": 853,
+            "scaleX": 0.8,
+            "scaleY": 0.8
+        },
+        {
+            "type": "Image",
+            "id": "819b4025-152d-4435-a9cd-f2161fedf658",
+            "label": "inventory_img",
+            "components": [],
+            "texture": {
+                "key": "inventory-img"
+            },
+            "x": 199,
+            "y": 905
+        },
+        {
+            "type": "Image",
+            "id": "4264ca21-b8e4-465f-9a1d-5daaa12672bc",
+            "label": "reward_icon",
+            "components": [],
+            "texture": {
+                "key": "reward-icon"
+            },
+            "x": 1818,
+            "y": 198
+        },
+        {
+            "type": "Image",
+            "id": "c74c9f9d-3cf6-405a-b1dd-48f05e309897",
+            "label": "recruit_btn",
+            "components": [],
+            "texture": {
+                "key": "recruit-btn"
+            },
+            "x": 1635,
+            "y": 64
+        },
+        {
+            "type": "Image",
+            "id": "c2b53c6e-72e3-492d-bc4e-0b6ffc53d3d6",
+            "label": "settings_icon",
+            "components": [],
+            "texture": {
+                "key": "settings-icon"
+            },
+            "x": 1833,
+            "y": 66
+        },
+        {
+            "type": "Image",
+            "id": "7c9d39b3-0c7c-4682-be83-5704766a99c0",
+            "label": "wallet",
+            "components": [],
+            "texture": {
+                "key": "wallet"
+            },
+            "x": 231,
+            "y": 64
+        },
+        {
+            "type": "Text",
+            "id": "e84fba9f-8bc5-4f7b-8565-4384959fa310",
+            "label": "text_1",
+            "components": [],
+            "x": 190,
+            "y": 54,
+            "text": "2000",
+            "fontSize": "26px",
+            "fontStyle": "bold"
+        },
+        {
+            "type": "Image",
+            "id": "2e9c9b67-2d20-46b9-ba0f-0b84765fc716",
+            "label": "story_icon",
+            "components": [],
+            "texture": {
+                "key": "story-icon"
+            },
+            "x": 1780,
+            "y": 875
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

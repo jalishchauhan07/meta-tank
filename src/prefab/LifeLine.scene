@@ -1,0 +1,68 @@
+{
+    "id": "71bce8a6-8259-4f28-b6a1-beb17310300b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "547001c9-1ac6-4cd1-8a99-f6b267f2f550",
+            "label": "container_1",
+            "components": [],
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "e8052194-d138-4ee7-b478-12255dc35720",
+                    "label": "life_energy",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -64,
+                    "scaleY": 0.2,
+                    "originX": 0,
+                    "isFilled": true,
+                    "fillColor": "#016401",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "60163ebc-b51f-474a-b62c-e7834e351099",
+                    "label": "power",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -64,
+                    "scaleY": 0.2,
+                    "originX": 0,
+                    "isFilled": true,
+                    "fillColor": "#2fb007",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Text",
+                    "id": "f181b13f-051d-41aa-a948-70b0013b33d8",
+                    "label": "life",
+                    "scope": "CLASS",
+                    "components": [],
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "100/100",
+                    "fontSize": "20px",
+                    "fontStyle": "bold"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
